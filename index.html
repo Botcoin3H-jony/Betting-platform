@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HaSsan Studio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Application</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<div class="container">
-<h1>Welcome to HaSsan Studio website</h1>
-<img src="1711500624630.jpg" alt="HaSsan Studio Image">
-<button id="clickBtn">Click</button>
-</div>
-<script>
-document.getElementById('clickBtn').addEventListener('click', function() {
- window.location.href = "https://facebook.com//61556103090828";
-});
-</script>
+  <div class="container">
+    <img src="1711670747739.jpg" alt="Cover Image" class="cover-image">
+    <h1>Welcome to the Chat App</h1>
+    <div id="chatContainer" class="chat-container"></div>
+    <form id="messageForm" class="message-form">
+      <input type="text" id="messageInput" placeholder="Type your message..." required>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
 </body>
-</html>
+
+  </html>
